@@ -1,0 +1,31 @@
+.profile-btn {
+  display: flex;
+  text-decoration: none;
+}
+
+.profile-btn_account {
+  margin: 0;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 2px solid rgba(0, 0, 0, .1);
+  color: #000;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+.profile-btn__icon-account {
+  margin: 0 5px 0 0;
+  padding: 0;
+  width: 12px;
+  height: 14px;
+  background-image: url(../../images/link_account.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

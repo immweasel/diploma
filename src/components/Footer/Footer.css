@@ -1,0 +1,131 @@
+.footer {
+  min-height: 172px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.footer__movies {
+  background-color: #fafafa;
+}
+
+.footer__title {
+  margin: 82px 0 0;
+  padding: 0;
+  max-width: 320px;
+  color: #A0A0A0;
+  text-align: center;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.23;
+}
+
+.footer__line {
+  margin: 20px 0 0;
+  padding: 0;
+  width: 89%;
+  height: 1px;
+  background-color: #E8E8E8;
+  caret-color: transparent;
+}
+
+.footer__container {
+  margin: 20px 0 0;
+  padding: 0;
+  width: 89%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.23;
+}
+
+.footer__wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer__link {
+  color: #000;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__line {
+    width: 92.1%;
+  }
+
+  .footer__container {
+    margin: 20px 0 0;
+    width: 92.1%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    min-height: 253px;
+  }
+
+  .footer__title {
+    width: 300px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+
+  .footer__line {
+    width: 93.7%;
+  }
+
+  .footer__container {
+    margin: 32px 0 0;
+    width: 93.7%;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .footer__text {
+    color: #000;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.15;
+  }
+
+  .footer__text_copyright {
+    letter-spacing: -0.5px;
+    color: #A0A0A0;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .footer__link {
+    color: #000;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.15l;
+  }
+}
