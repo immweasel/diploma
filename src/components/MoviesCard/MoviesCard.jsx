@@ -62,7 +62,7 @@ const MoviesCard = ({
             disabled={onBlockedButton}
           ></button>
           : <button
-            className={`movie-card__btn ${checkSaved ? 'movie-card__btn_saved' : ''} links-hover`}
+            className={`movie-card__btn ${checkSaved ? 'movie-card__btn_delete-saved' : ''} links-hover`}
             onClick={handleClickDeleteSaveFilm}
             disabled={onBlockedButton}
           ></button>}
